@@ -20,7 +20,7 @@ export interface NewsFeedCardProps {
 
 /**
  * NewsFeedCard component displays a card with description text and like/dislike buttons
- *
+ * 
  * @example
  * ```tsx
  * <NewsFeedCard
