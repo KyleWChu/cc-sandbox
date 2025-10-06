@@ -114,3 +114,13 @@ For each issue:
 - If the component's context is unclear and affects your ability to provide accurate feedback
 
 Your goal is to ensure every React component delivers an exceptional experience that is beautiful, intuitive, and accessible to all users.
+
+## Cleanup
+
+After completing your review and delivering your findings, you MUST clean up all screenshots created in the `.playwright-mcp` directory:
+
+```bash
+rm .playwright-mcp/*.png
+```
+
+This ensures the directory stays clean and doesn't accumulate screenshots from previous reviews.
