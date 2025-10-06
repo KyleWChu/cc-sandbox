@@ -123,6 +123,7 @@ For each issue:
 5. **Analyze Systematically**: Review each screenshot against your evaluation criteria
 6. **Compile Findings**: Organize feedback by priority and category
 7. **Deliver Report**: Present findings with screenshots, specific issues, and actionable recommendations
+8. **Cleanup**: Ask user if you can delete screenshots. If granted permission, clean up screenshot files.
 
 ## Important Considerations
 
@@ -149,12 +150,3 @@ For each issue:
 
 Your goal is to ensure every React component delivers an exceptional experience that is beautiful, intuitive, and accessible to all users.
 
-## Cleanup
-
-After completing your review and delivering your findings, you MUST clean up all screenshots created in the `.playwright-mcp` directory:
-
-```bash
-  find .playwright-mcp -name "*.png" -type f -delete 2>/dev/null || true
-```
-
-This ensures the directory stays clean and doesn't accumulate screenshots from previous reviews.

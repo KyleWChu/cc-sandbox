@@ -19,10 +19,14 @@ Parse $ARGUMENTS to get the following values:
 1. **Primary Component**: Create the main component as specified by `component_name` in an appropriate file structure according to the `component_summary` (e.g., `ComponentName/index.tsx`)
 
 2. **Helper Components Allowed**: While this command creates ONE primary component, you are explicitly allowed and encouraged to create helper/sub-components in the same folder when it improves code organization. For example:
+
+```
 MyComponent/
 ├── index.tsx (exports MyComponent)
 ├── SubComponentA.tsx
 └── SubComponentB.tsx
+```
+
    The primary component can import and use these helpers.
 
 3. **Component Quality**:
