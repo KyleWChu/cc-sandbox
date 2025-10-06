@@ -1,5 +1,5 @@
 ---
-description: Create a UI Component in /components
+description: Create a UI Component in src/components/
 argument-hint: Component name | Component summary
 ---
 
